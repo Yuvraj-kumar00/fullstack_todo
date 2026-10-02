@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is my Todo Project",
+  "keywords": [
+    "Todo",
+    "Project"
+  ],
+  "license": "ISC",
+  "author": "Yuvraj Kumar",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mailgen": "^2.0.36",
+    "mongoose": "^9.9.4",
+    "multer": "^2.3.0",
+    "nodemailer": "^9.1.1"
+  }
+}

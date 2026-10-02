@@ -6,10 +6,10 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies cleanly
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 # Copy remaining project source code
-COPY . .
+COPY .. .
 
 EXPOSE 3000
 
